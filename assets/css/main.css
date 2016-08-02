@@ -1551,7 +1551,7 @@
 /* Basic */
 
 	body {
-		background: /*#fff*/  #f7f7f7;
+		background:  #f7f7f7;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1566,7 +1566,7 @@
 		}
 
 body, input, select, textarea {
-    color: #58514A /*#b2b2b2*/ /*#a2a2a2*/;
+    color: #58514A;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: url('../../images/concrete_seamless.png');
     background-attachment:fixed;
@@ -1602,6 +1602,7 @@ body, input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+        text-align:center;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1609,6 +1610,7 @@ body, input, select, textarea {
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
+        
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2539,11 +2541,11 @@ body, input, select, textarea {
 		}
 
 			#footer .icons a {
-				color: /*rgba(255, 255, 255, 0.4);*/ #b2b2b2;
+				color:  #b2b2b2;
 			}
 
 		#footer .copyright {
-			color: /*rgba(255, 255, 255, 0.4);*/ #b2b2b2;
+			color:  #b2b2b2;
 			font-size: 0.8em;
 			list-style: none;
 			margin: 1em 0 0 0;
@@ -3041,6 +3043,13 @@ body, input, select, textarea {
 					font-size: 1.35em;
 				}
 
+                  image.avatar img {
+                    position: center;
+                    display:block;
+                    margin: auto;
+                    width: 40%;
+                }
+
 		/* Footer */
 
 			#footer {
@@ -3118,6 +3127,17 @@ body, input, select, textarea {
 				#header h1 br {
 					display: none;
 				}
+
+                image.avatar img {
+                    position: center;
+                    display:block;
+                    margin: auto;
+                    width: 40%;
+                }
+
+                 
+                
+            
 
 		/* Footer */
 
