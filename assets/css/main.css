@@ -2265,6 +2265,7 @@ body, input, select, textarea {
 					text-align: center;
 					top: 0;
 					width: 1em;
+                    font-size:20px;
 				}
 
 	dl {
@@ -2539,10 +2540,12 @@ body, input, select, textarea {
 
 		#footer .icons {
 			margin: 1em 0 0 0;
+            
 		}
 
 			#footer .icons a {
 				color:  #b2b2b2;
+                font-size: 18px;
 			}
 
 		#footer .copyright {
